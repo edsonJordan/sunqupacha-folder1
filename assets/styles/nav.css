@@ -1,0 +1,30 @@
+.navbar {    
+    margin: 0;   
+    background-color: var(--bg-color--light-blue);    
+  }
+.nav__content{    
+    line-height: 16px;    
+    height: 60px;
+    display: flex;
+    width: 100%;      
+    justify-content: space-between;    
+}
+.nav__img{        
+  object-fit: cover;  
+}
+.nav__link{
+  display: flex;  
+}
+.nav__link > *{ 
+  display: inline-flex;
+  margin: auto 8px;  
+  font-size: var(--text-weight-normal);
+  color: var(--text-color--dark-blue);
+}
+.nav__content .icon{
+  min-width: 140px; 
+}
+.nav__link  .user, .toggle{ 
+  min-width: 20px;    
+}
+

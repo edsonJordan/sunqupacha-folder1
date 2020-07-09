@@ -1,0 +1,36 @@
+@import url("styles/reset.css");
+@import url("styles/nav.css");
+@import url("styles/header.css");
+*{
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body{
+    width: 100vw;
+    display: block;
+}
+:root {
+    /* Text-weight */
+    --text-weight-small: 12px;
+    --text-weight-normal: 16px;
+    --text-weight-large: 21px;
+    --text-weight-extra-large: 27px;
+    /* text color */
+    --text-color--dark-blue: #254762;
+    /* Background color */
+    --bg-color--light-blue:#A7E3DD;
+  }
+a{
+    text-decoration: none;
+}
+.none{
+    display: none;
+}
+.button{
+    outline-style: none;
+    border-radius: 15px;
+    border: none;
+    background-color: var(--text-color--dark-blue);
+   
+    color: white;
+    padding:10px 30px;
+}
