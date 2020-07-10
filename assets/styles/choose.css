@@ -1,0 +1,5 @@
+.container__choose{
+    background-color: var(--bg-color--light-blue);    
+    width: calc(100vw - (100vw - 100%));
+    display: grid; 
+}
