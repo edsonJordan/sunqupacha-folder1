@@ -1,17 +1,15 @@
-.navbar {    
-    margin: 0;   
-    background-color: var(--bg-color--light-blue);    
+.navbar {        
+    background-color: var(--bg-color--light-blue);   
+    width: calc(100vw - (100vw - 100%));  
   }
 .nav__content{    
     line-height: 16px;    
     height: 60px;
-    display: flex;
-    width: 100%;      
-    justify-content: space-between;    
+    display: flex;      
+    justify-content: space-between;  
+    margin: 0 15px;  
 }
-.nav__img{        
-  object-fit: cover;  
-}
+
 .nav__link{
   display: flex;  
 }
