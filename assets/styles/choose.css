@@ -12,7 +12,7 @@
     font-size: var(--text-weight-large);
     color:var(--text-color--dark-blue);
 }
-.card__title_paragraph{
+ .card__title_paragraph{
     font-size: var(--text-weight-normal);
     color:var(--bg-color--dark-grey);
 }
@@ -34,7 +34,7 @@
 .card__slider.static{
     
     height: max-content;
-    width: 74.5%;
+    width: 75%;
      margin: 16px 2.5rem;
      background-color: #F5A623;
      border-radius: 5px;
