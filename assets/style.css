@@ -2,6 +2,7 @@
 @import url("styles/nav.css");
 @import url("styles/header.css");
 @import url("styles/choose.css");
+@import url("styles/carousel.css");
 *{
     font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -19,6 +20,10 @@ body{
     --text-color--dark-blue: #254762;
     /* Background color */
     --bg-color--light-blue:#A7E3DD;
+    --bg-color--light-grey:#F2F2F2;
+    --bg-color--medium-grey:#F2F2F2;
+    --bg-color--dark-grey:#7D7D7D;
+    --bg-color--heavy-grey:#323232;
   }
 a{
     text-decoration: none;
@@ -28,10 +33,15 @@ a{
 }
 .button{
     outline-style: none;
-    border-radius: 15px;
+    border-radius: 20px;
     border: none;
-    background-color: var(--text-color--dark-blue);
-   
     color: white;
     padding:10px 30px;
+}
+.button.header{
+    background-color: var(--text-color--dark-blue);
+}
+.button.accountant{
+    color: var(--bg-color--dark-grey);
+    background-color: var(--bg-color--medium-grey);
 }
