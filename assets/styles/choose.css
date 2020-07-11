@@ -1,5 +1,73 @@
-.container__choose{
-    background-color: var(--bg-color--light-blue);    
+.container__choose{    
+    display: inline-block;
     width: calc(100vw - (100vw - 100%));
-    display: grid; 
+    background-color: var(--bg-color--light-grey);
 }
+.content__choose{    
+    width: calc(90vw - (100vw - 100%)); 
+    margin: auto;  
+    text-align: center;
+}
+.content__choose > .card__title__h1{
+    font-size: var(--text-weight-large);
+    color:var(--text-color--dark-blue);
+}
+.card__title_paragraph{
+    font-size: var(--text-weight-normal);
+    color:var(--bg-color--dark-grey);
+}
+.content__accountant{
+    background-color: var(--bg-color--dark-grey);
+}
+.choose_slider{
+    display: grid;
+    overflow: hidden;    
+    grid-auto-columns: min-content(300px, 1fr);     
+    
+}
+
+
+.card_slider_content{
+    display: inline;
+  
+}
+.card__slider.static{
+    
+    height: max-content;
+    width: 74.5%;
+     margin: 16px 2.5rem;
+     background-color: #F5A623;
+     border-radius: 5px;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.card__slider.dinamic{
+    position: relative;
+ 
+    overflow: hidden;   
+}
+/* Lista */
+.card__list__ul{    
+    list-style: none;
+    margin:0 auto;
+    padding-left: 0;
+}
+.card__list__ul.static{
+    color: white;
+}
+
+.card__list__ul.dinamic{
+    color: var(--bg-color--dark-grey);
+}
+.card__list__ul > li {
+    margin: 5px 0;
+}
+.card__list__h1{
+    color: var(--text-color--dark-blue);
+}
+.card__slider__dinamic__point{    
+    min-width: 200px;
+}
+
+
+
