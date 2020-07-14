@@ -18,17 +18,15 @@
 /* Sumary blocks */
 .header__sumary{
     display: block;
-    width: 100vw;   
-    
+    width: 100vw;       
 }
 .header__details{
     display:block;
-    background-color: white;    
-       
+    background-color: white;           
     text-align: center;
-    border-width: 90vw;
-   
-    border-bottom: 1px solid #DDDDDD;             
+    border-width: 90vw;   
+    border-bottom: 1px solid #DDDDDD;  
+    
 }
 .details__sumary{
     display: block;
@@ -56,7 +54,7 @@
     top: 10px; 
 }
 .details__sumary::-webkit-details-marker {
-  display: none;
+  display: none;  
 }
 .details__woks:not(:last-child){    
     width: 70%;    
@@ -82,7 +80,6 @@
     color:var(--bg-color--dark-grey);
     font-size: var(--text-weight-small);
 }
-
 .cards__img{
     width: 30px;
     margin: auto;
@@ -95,6 +92,8 @@
 }
 /* Texto de parrafos y titulos del headers details */
 .details__woks.paragraph{
-    color:#8E9499;
-   
+    color:var(--bg-color--dark-grey);   
+}
+.links__links__h1{
+    color: var;
 }
