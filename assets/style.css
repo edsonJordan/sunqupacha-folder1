@@ -3,6 +3,8 @@
 @import url("styles/header.css");
 @import url("styles/choose.css");
 @import url("styles/carousel.css");
+@import url("styles/people.css");
+@import url("styles/slider.css");
 *{
     font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }

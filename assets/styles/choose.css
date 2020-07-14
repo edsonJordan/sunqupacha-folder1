@@ -2,6 +2,7 @@
     display: inline-block;
     width: calc(100vw - (100vw - 100%));
     background-color: var(--bg-color--light-grey);
+    
 }
 .content__choose{    
     width: calc(90vw - (100vw - 100%)); 
