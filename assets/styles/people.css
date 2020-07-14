@@ -3,14 +3,14 @@
     width: calc(100vw - (100vw - 100%));
   /*   background-color: var(--bg-color--light-grey); */
 }
-.content__people{    
+.content__people{        
     width: calc(90vw - (100vw - 100%)); 
-    margin: auto;  
+    margin: auto;
     text-align: center;
+    
 }
 .img_people{    
     width: 150px;
     height: 150px;
-    border-radius: 75%;        
-        
+    border-radius: 75%;                
 }
