@@ -6,6 +6,12 @@
 @import url("styles/people.css");
 @import url("styles/slider.css");
 @import url("styles/footer.css");
+
+/* Tablet */
+@import url("styles/tablet.css");
+
+/* destokp */
+@import url("styles/desktop.css");
 *{
     font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
