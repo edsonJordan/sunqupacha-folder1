@@ -67,6 +67,7 @@
     width: calc(90vw - (100vw - 100%));         
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));    
     margin: auto;
+    padding-bottom:2rem;
 }
 .works__cards{
     display: block;
