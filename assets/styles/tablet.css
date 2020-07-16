@@ -1,4 +1,4 @@
-@media (min-width: 481px) {  
+@media (min-width: 481px) and (min-width: 767px) {  
    /* Nav */
 
    /* Header */
@@ -40,9 +40,6 @@
     .card__slider.static{        
         margin: 0 auto;
     }    
-    .card__list__ul{
-        
-    }
     /* Sections Experts */
     .content__experts{
         display: grid;

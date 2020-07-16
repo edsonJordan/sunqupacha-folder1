@@ -1,7 +1,41 @@
 @media (min-width: 768px) and (max-width: 1024px) {
-  
-
-
-  
+    .content_header__grid{
+        margin:2rem 4rem;        
+    }
+    .details__woks.img {
+        width: 50vw;
+    }
+    .details__woks.img:last-child {
+        width: 30vw;
+    }
+    .card__slider.static {
+    height: 50%;
+    }
+    .slider--full .slider__inner {      
+       
+    }
+    .slider__slides {
+        height: 87vh; 
+    }
+    .people__card {     
+        width: 50%;
+    }
+    .content__experts {        
+        grid-template-columns: .5fr .5fr;
+    }
+    .links__links__img {
+        height: 15px;
+        width: 20px;
+    }
+    .details__woks.paragraph{
+        text-align: initial;
+    }
+    .content__experts {
+        text-align: initial;
+    margin: 2rem auto;
+    }
+    .content__links{
+        text-align: initial;
+    }
     
   }
