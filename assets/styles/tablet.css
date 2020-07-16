@@ -32,11 +32,12 @@
         display: flex;      
         margin: 2rem 0;  
     }
-    .slider.slider--full{
-        height: 78vh;
+    .slider__slide{
+        display: initial;
     }
     .card__slider.static{
         margin: initial;
+        height: initial;
     }    
     /* Sections Experts */
     .content__experts{
