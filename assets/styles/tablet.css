@@ -1,7 +1,5 @@
 @media (min-width: 481px) and (max-width: 767px) {  
    /* Nav */
-   
-
 
    /* Header */
    .content_header__grid{
@@ -21,10 +19,41 @@
     }
     .header__details__grid{
         display: grid;
+        margin: 2rem;
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     }
-    .details__woks.img{
-        width: 50vw;
+    .details__woks.img:last-child{
+        width: 100%;
+    }
+    .details__woks.paragraph{
+        margin: auto;
+    }
+    .choose_slider {
+        display: flex;      
+        margin: 2rem 0;  
+    }
+    .slider.slider--full{
+        height: 78vh;
+    }
+    .card__slider.static{
+        margin: initial;
+    }    
+    /* Sections Experts */
+    .content__experts{
+        display: grid;
+        grid-template-columns: .5fr 1fr;     
+        width: initial;
+        margin: 4rem 0;   
+    }
+    .label_class__link_read{
+        margin-bottom:12rem;
+    }
+    /* Section Footer */
+    .content__links{
+        display: grid;
+        column-gap: 10px;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        align-items: center;
     }
     
   }

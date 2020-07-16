@@ -1,6 +1,6 @@
 .content__people_card{
     display: grid;
-    margin: auto 0;
+    margin: 2rem 0;
     text-align: center;    
 }
 .slider_radio_input{
