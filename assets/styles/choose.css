@@ -34,7 +34,7 @@
 }
 .card__slider.static{
     
-    height: max-content;
+    height: 100vh;
     width: 90%;
     margin: 2rem auto;
      background-color: #F5A623;
@@ -50,7 +50,7 @@
 /* Lista */
 .card__list__ul{    
     list-style: none;
-    margin:3rem auto;
+    margin:2rem auto;
     padding-left: 0;
 }
 .card__list__ul.static{

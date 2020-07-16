@@ -33,12 +33,14 @@
         margin: 2rem 0;  
     }
     .slider__slide{
-        display: initial;
+        
     }
-    .card__slider.static{
-        margin: initial;
-        height: initial;
+    .card__slider.static{        
+        margin: 0 auto;
     }    
+    .card__list__ul{
+        
+    }
     /* Sections Experts */
     .content__experts{
         display: grid;
