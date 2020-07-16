@@ -19,8 +19,12 @@
     .works__cards{
         min-width: initial;
     }
-    .details__woks.money{
-        display: none;
+    .header__details__grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+    .details__woks.img{
+        width: 50vw;
     }
     
   }
