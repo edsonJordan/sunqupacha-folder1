@@ -3,13 +3,15 @@
     width: calc(100vw - (100vw - 100%));
     display: grid; 
 }
+
 .header__card > *{
-    display: block;
+    display: grid;
+    align-items: center;
     margin: 15px auto; 
 }
 .header__card, .header__icon{   
     width: 60vw;
-    margin: 0 auto;
+    margin: auto;
 }
 .header__card > .card__title, .card__span, .header__button {    
     color: var(--text-color--dark-blue);    

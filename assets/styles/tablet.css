@@ -1,15 +1,17 @@
-@media (min-width: 481px) and (max-width: 767px) {  
+@media (min-width: 481px) {  
    /* Nav */
 
    /* Header */
    .content_header__grid{
        display: grid;
        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+       margin: 2rem;
    }
    .header__card, .header__icon {
     width: initial;
     margin: 0;
     }
+  
 
     .details__works.cards{
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
